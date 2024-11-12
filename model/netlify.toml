@@ -1,0 +1,7 @@
+[build]
+  functions = "api"  # Spécifie le répertoire contenant les fonctions serverless
+
+[[redirects]]
+  from = "/predict"
+  to = "/.netlify/functions/predict"
+  status = 200
